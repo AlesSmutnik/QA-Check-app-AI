@@ -1,0 +1,27 @@
+{
+  "name": "traceability-firewall",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kontrola kvality a dohledatelnost dílů",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@zxing/library": "0.21.3",
+    "better-sqlite3": "^12.0.0",
+    "dotenv": "^17.0.0",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.3"
+  }
+}

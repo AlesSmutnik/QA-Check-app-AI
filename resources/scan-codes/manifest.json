@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "images": [
+    {
+      "name": "QR_excel_3_kody.png",
+      "sha256": "db15f7168d13324fcb562685f2a2089ba065f073b3d5a4f4df1a6b0ccc74b826",
+      "payloads": [
+        {
+          "region": 1,
+          "payload": "0",
+          "hex": "30",
+          "canonical": "0",
+          "action": "ok"
+        },
+        {
+          "region": 2,
+          "payload": "1",
+          "hex": "31",
+          "canonical": "1",
+          "action": "nok"
+        },
+        {
+          "region": 3,
+          "payload": "R",
+          "hex": "52",
+          "canonical": "R",
+          "action": "rework"
+        }
+      ]
+    },
+    {
+      "name": "QR_Rework.png",
+      "sha256": "87405d1df82a157d5f6c4a45086b61c51f54840631021e317b7c88e73f81157b",
+      "payloads": [
+        {
+          "region": 1,
+          "payload": "R",
+          "hex": "52",
+          "canonical": "R",
+          "action": "rework"
+        }
+      ]
+    },
+    {
+      "name": "QR_NOK_dil.png",
+      "sha256": "3fd450620085d35784bc28502869776e6619858bb214c3e2634cba3d8246de3b",
+      "payloads": [
+        {
+          "region": 1,
+          "payload": "1",
+          "hex": "31",
+          "canonical": "1",
+          "action": "nok"
+        }
+      ]
+    },
+    {
+      "name": "QR_OK_dil.png",
+      "sha256": "6ac6c85bbe1fbd29fa446ce6fc0304f3ccec927dcc25661e53213d20c35bf076",
+      "payloads": [
+        {
+          "region": 1,
+          "payload": "0",
+          "hex": "30",
+          "canonical": "0",
+          "action": "ok"
+        }
+      ]
+    },
+    {
+      "name": "QR_REWORK_ENTER.png",
+      "sha256": "4d45307ce9d8853fc547dcb6f4132a3f132fc140890b3bf4e8c17362c2b1a70d",
+      "payloads": [
+        {
+          "region": 1,
+          "payload": "R\r",
+          "hex": "520d",
+          "canonical": "R",
+          "action": "rework"
+        }
+      ]
+    },
+    {
+      "name": "QR_NOK_ENTER.png",
+      "sha256": "5fb059b460b95fcf01a43f8ac9051f10f28a17597f473b0aef17f91ad9b772d1",
+      "payloads": [
+        {
+          "region": 1,
+          "payload": "1\r",
+          "hex": "310d",
+          "canonical": "1",
+          "action": "nok"
+        }
+      ]
+    },
+    {
+      "name": "QR_OK_ENTER.png",
+      "sha256": "baf0c63c075a29ba0eb71fd3f6986f3a7d8c7bf7259bf0a28fa8c2cd5255bf4b",
+      "payloads": [
+        {
+          "region": 1,
+          "payload": "0\r",
+          "hex": "300d",
+          "canonical": "0",
+          "action": "ok"
+        }
+      ]
+    }
+  ]
+}
